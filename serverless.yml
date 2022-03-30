@@ -11,7 +11,7 @@ functions:
     events:
       - http:
           path: /qr
-          method: ANY
+          method: GET
           cors: true
     
 plugins:
